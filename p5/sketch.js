@@ -1,12 +1,18 @@
-function preload(){
-  // put preload code here
-}
 
 function setup() {
   createCanvas(windowWidth,windowHeight)
-  // put setup code here
+
 }
 
 function draw() {
-  // put drawing code here
+  background("yellow");
+  fill('red');
+  textSize(80);
+  text(frameCount,width/2,height/2);
+}
+
+
+function mouseClicked(){
+  window.open("page2.html","_self");
+
 }

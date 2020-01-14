@@ -41,5 +41,5 @@ function mouseClicked(){
 
 function tiaozhuan(){
   //跳转index
-  window.open("index.html","_self");
+  window.open("page4.html","_self");
 }

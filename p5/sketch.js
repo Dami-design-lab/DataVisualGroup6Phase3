@@ -10,6 +10,10 @@ function draw() {
   fill('red');
   textSize(80);
   text(frameCount,width/2,height/2);
+
+  if(frameCount==130){
+    mouseClicked();
+  }
 }
 
 

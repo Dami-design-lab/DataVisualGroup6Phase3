@@ -4,7 +4,7 @@ function preload(){
 
 function setup() {
   // createCanvas(windowWidth,windowHeight);
-  background('violet');
+  // background('violet');
 
 noCanvas();
 
@@ -13,9 +13,9 @@ noCanvas();
   var myParam = myUrl.searchParams.get("name2")
   console.log(myParam);
   //按钮跳转页面
-  var btn = createButton('submit');
-  select('button').position(294,532);
-  btn.mousePressed(submit);
+  var btn = createButton('tiaozhuan');
+  select('button').position(40,40);
+  btn.mousePressed(tiaozhuan);
 
 }
 
@@ -39,7 +39,7 @@ function mouseClicked(){
 
 
 
-function submit(){
+function tiaozhuan(){
   //跳转index
-  window.open("page3.html","_self");
+  window.open("page2.html","_self");
 }

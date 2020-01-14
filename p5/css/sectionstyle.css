@@ -1,3 +1,21 @@
+.bgp2{
+    background-image: url("https://bloximages.newyork1.vip.townnews.com/dailyastorian.com/content/tncms/assets/v3/editorial/b/f6/bf682398-0554-11e9-a289-4b5d31089c69/5c1d3c399792e.image.jpg?resize=886%2C630");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bgp3{
+    background-image: url("https://media3.giphy.com/media/3o6ozoD1ByqYv7ARIk/giphy.webp?cid=790b7611768371055117ac15ebd066fb8be7c272c4fabf79&rid=giphy.webp");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.bgp4{
+    background-image: url("https://support.discordapp.com/hc/article_attachments/360013500032/nitro_gif.gif");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+
 h1{
 
 font-family: "Arial", sans-serif;
@@ -34,6 +52,10 @@ p{
   /* color:#424f60; */
     color:#a6a2a1;
 }
+.fontorange{
+
+    color:#FFAD00;
+}
 
 .fontwhite{
   /* color:#424f60; */
@@ -60,7 +82,9 @@ p{
 /* #3b3759,#aa5377,#cf8da7,  #4c6e81, #7aacb3 深色 */
 
 
-@-webkit-keyframes AnimationName {
+/* animation */
+
+/* @-webkit-keyframes AnimationName {
     0%{background-position:7% 0%}
     50%{background-position:94% 100%}
     100%{background-position:7% 0%}
@@ -69,7 +93,7 @@ p{
     0%{background-position:7% 0%}
     50%{background-position:94% 100%}
     100%{background-position:7% 0%}
-}
+} */
 
 .fl{
   float: left;

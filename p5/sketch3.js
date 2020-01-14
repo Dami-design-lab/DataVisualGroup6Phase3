@@ -4,7 +4,7 @@ function preload(){
 
 function setup() {
   // createCanvas(windowWidth,windowHeight);
-  background('violet');
+  // background('violet');
 
 noCanvas();
 
@@ -14,7 +14,7 @@ noCanvas();
   console.log(myParam);
   //按钮跳转页面
   var btn = createButton('tiaozhuan');
-  select('button').position(20,20);
+  select('button').position(40,40);
   btn.mousePressed(tiaozhuan);
 
 }
@@ -41,5 +41,5 @@ function mouseClicked(){
 
 function tiaozhuan(){
   //跳转index
-  window.open("page3.html","_self");
+  window.open("index.html","_self");
 }
